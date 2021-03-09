@@ -1,0 +1,12 @@
+.floatUp {
+  animation: floatUpAnimation ease 2s;
+}
+
+@keyframes floatUpAnimation {
+  0% {
+    transform: translateY(3rem);
+  }
+  100% {
+    transform: translate(0);
+  }
+}

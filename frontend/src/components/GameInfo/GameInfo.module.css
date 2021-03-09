@@ -1,0 +1,14 @@
+.GameInfo {
+  height: 100%;
+  display: grid;
+  gap: 1.5rem;
+  margin: 0 5vw;
+}
+
+.GameInfo article {
+  height: 100%;
+}
+
+.GameInfo figure {
+  height: 10rem;
+}

@@ -1,0 +1,30 @@
+.Pagination {
+  display: grid;
+  grid-auto-flow: column;
+  gap: 1rem;
+  list-style: none;
+}
+
+.Pagination__next,
+.Pagination__prev,
+.Pagination__page {
+  padding: 0 0.5rem;
+  color: var(--colour-light);
+  transition: transform 0.2s;
+}
+.Pagination__next:hover,
+.Pagination__prev:hover,
+.Pagination__page:hover {
+  cursor: pointer;
+  font-weight: bold;
+  transform: translateY(-2px);
+}
+
+.Pagination__active {
+  font-weight: bold;
+  border-bottom: 1px solid var(--colour-primary-light);
+}
+
+.Pagination__disable {
+  display: none;
+}

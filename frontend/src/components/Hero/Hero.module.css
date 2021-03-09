@@ -1,0 +1,28 @@
+.Hero {
+  margin: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('../../../src/assets//hero.jpg');
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+.Hero__content {
+  display: grid;
+  gap: 0.5rem;
+  place-items: center;
+  margin: 0 10vw;
+}
+.Hero__icon {
+  font-size: 4rem;
+}
+
+.Hero__header {
+  font-size: 2.5rem;
+  font-weight: 300;
+  line-height: 1.66;
+}

@@ -1,0 +1,24 @@
+.GameSummary {
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: grid;
+  padding: 1rem;
+  align-content: center;
+  gap: 1.5rem;
+}
+
+.GameSummary__genres {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.GameSummary__genres > * {
+  margin: 1rem;
+}
+.GameSummary__dates {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

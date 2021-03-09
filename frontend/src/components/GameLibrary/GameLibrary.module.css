@@ -1,0 +1,33 @@
+.GameLibrary {
+  display: grid;
+  align-items: center;
+  grid-template-areas:
+    'header'
+    'gallery'
+    'gallery';
+  transition: opacity 2s;
+}
+
+.GameLibrary__gallery {
+  grid-area: gallery;
+  height: 27rem;
+}
+.GameLibrary__staging {
+  font-size: 5rem;
+}
+.GameLibrary__slider {
+  margin-right: 0;
+  width: 100%;
+}
+.GameLibrary__header {
+  grid-area: header;
+  align-self: center;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap-reverse;
+  padding: 2rem 0;
+  justify-content: space-around;
+}
+.GameLibrary__header > * {
+  margin: 1rem;
+}

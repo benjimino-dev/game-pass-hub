@@ -1,0 +1,13 @@
+.SelectMenu {
+  width: 100%;
+  padding: 2px 0.5rem;
+  border-radius: 0.5rem;
+  color: inherit;
+  border: 1px solid var(--colour-primary-light);
+  background-color: inherit;
+}
+
+.SelectMenu option {
+  background-color: var(--colour-dark);
+  font-weight: normal;
+}

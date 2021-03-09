@@ -1,0 +1,8 @@
+.Notification {
+  padding: 1rem;
+  border: 1px solid var(--colour-primary-light);
+  border-radius: 1rem;
+  display: inline-grid;
+  align-items: center;
+  grid-template-columns: 3rem 1fr;
+}

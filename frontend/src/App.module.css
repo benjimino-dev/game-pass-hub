@@ -1,0 +1,7 @@
+.App {
+  display: grid;
+  padding: 2rem;
+}
+.Main {
+  min-height: 40rem;
+}
